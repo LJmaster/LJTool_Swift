@@ -16,6 +16,8 @@
 		359DE54120A5ACAE003180B4 /* Tool_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359DE54020A5ACAE003180B4 /* Tool_swiftUITests.swift */; };
 		359DE55020A5ACDF003180B4 /* StringMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359DE54F20A5ACDF003180B4 /* StringMD5.swift */; };
 		359DE55320A5AD13003180B4 /* LJTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359DE55220A5AD13003180B4 /* LJTime.swift */; };
+		56BDA91A20C52D3E000D004A /* LJImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BDA91920C52D3E000D004A /* LJImage.swift */; };
+		56BDA91C20C52D51000D004A /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BDA91B20C52D51000D004A /* ImageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		359DE54220A5ACAE003180B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		359DE54F20A5ACDF003180B4 /* StringMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMD5.swift; sourceTree = "<group>"; };
 		359DE55220A5AD13003180B4 /* LJTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJTime.swift; sourceTree = "<group>"; };
+		56BDA91920C52D3E000D004A /* LJImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJImage.swift; sourceTree = "<group>"; };
+		56BDA91B20C52D51000D004A /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 			children = (
 				359DE52020A5ACAE003180B4 /* AppDelegate.swift */,
 				359DE52220A5ACAE003180B4 /* ViewController.swift */,
+				56BDA91820C52D27000D004A /* Image */,
 				359DE55120A5AD04003180B4 /* Time */,
 				359DE54E20A5ACD2003180B4 /* String */,
 				359DE52420A5ACAE003180B4 /* Main.storyboard */,
@@ -145,6 +150,15 @@
 				359DE55220A5AD13003180B4 /* LJTime.swift */,
 			);
 			path = Time;
+			sourceTree = "<group>";
+		};
+		56BDA91820C52D27000D004A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				56BDA91B20C52D51000D004A /* ImageDownloader.swift */,
+				56BDA91920C52D3E000D004A /* LJImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +299,8 @@
 				359DE52320A5ACAE003180B4 /* ViewController.swift in Sources */,
 				359DE52120A5ACAE003180B4 /* AppDelegate.swift in Sources */,
 				359DE55020A5ACDF003180B4 /* StringMD5.swift in Sources */,
+				56BDA91C20C52D51000D004A /* ImageDownloader.swift in Sources */,
+				56BDA91A20C52D3E000D004A /* LJImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
